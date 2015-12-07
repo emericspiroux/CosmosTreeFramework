@@ -1,0 +1,49 @@
+.text-red{
+	color:#E73428;
+	color:rgb(231, 52, 40);
+}
+
+.red{
+	background-color:#E73428;
+	background-color:rgb(231, 52, 40);
+}
+
+.text-orange{
+	color:rgb(254, 199, 56);
+	color:#FEC738;
+}
+
+.orange{
+	background-color:rgb(254, 199, 56);
+	background-color:#FEC738;
+}
+
+.text-green{
+	color:rgb(189, 244, 171);
+	color:#BDF4AB;
+}
+
+.green{
+	background-color:rgb(189, 244, 171);
+	background-color:#BDF4AB;
+}
+
+.text-purple{
+	color:rgb(121, 56, 254);
+	color:#7938FE;
+}
+
+.purple{
+	background-color:rgb(121, 56, 254);
+	background-color:#7938FE;
+}
+
+.text-blue{
+	color:rgb(112, 241, 244);
+	color:#70F1F4;
+}
+
+.blue{
+	background-color:rgb(112, 241, 244);
+	background-color:#70F1F4;
+}
