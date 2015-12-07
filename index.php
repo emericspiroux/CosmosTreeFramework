@@ -7,7 +7,7 @@ require "config/route.php";
 
 try
 {
-	$CF = new cosmosFramework(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+	$CF = new cosmosFramework("!E_ALL");
 } catch (Exception $e){
 	echo $e->getMessage();
 }

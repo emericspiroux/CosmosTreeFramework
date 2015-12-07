@@ -46,6 +46,9 @@ class gallery extends CF_controller
 
 	public function delete($id_gallery)
 	{
+		$img = $this->gallery_model->getImgsById($id_gallery);
+		if (file_exists("assets/img/gallery/".$img['url']))
+			unlink("assets/img/gallery/".$img['url']);
 		$this->gallery_model->deleteImg($id_gallery);
 		redirect(__BASE_URL__."/user/maker");
 	}
