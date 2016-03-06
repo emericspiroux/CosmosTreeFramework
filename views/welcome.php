@@ -136,7 +136,7 @@
         </div>
         <div class="row" style="text-align:justify">
             <div class="col-lg-4 col-lg-offset-2">
-                <p>Since long time computers be present under my hands and today my experience need to be useful for you. Curious, Autonomous and pragmatic, i can adapt myself to any request. My skills palette going through <a href="www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-manual-325462.pdf">asm</a>, <a href="https://en.wikipedia.org/wiki/C_(programming_language)">c</a> and passing by <a href="https://angular.io/">AngularJs</a>, <a href="https://github.com/apple/swift">swift</a> and many other language.</p>
+                <p>Since long time, computers be present under my hands and today my experience need to be useful for you. Curious, Autonomous and pragmatic, i can adapt myself to any request. My skills palette going through <a href="http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-manual-325462.pdf">asm</a>, <a href="https://en.wikipedia.org/wiki/C_(programming_language)">c</a> and passing by <a href="https://angular.io/">AngularJs</a>, <a href="https://github.com/apple/swift">swift</a> and many other language.</p>
             </div>
             <div class="col-lg-4">
                 <p> I have a reason for it, i learn very quickly with a good practice of technical monitoring. I'm very interested by project who link computers and nature respect so as to keep humankind free of all worry. Please don't hesitate to contact me if you think that i can help.</p>
