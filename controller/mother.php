@@ -7,8 +7,13 @@ class mother extends CF_controller
 {
 	public function index()
 	{
-		if (isset($_SESSION['user']))
-			redirect(__BASE_URL__."/user/maker");
-		$this->page->login();
+		$this->page->welcome();
+	}
+
+	public function cv()
+	{
+		header("Content-type: application/pdf");
+		header("Content-Disposition: inline;filename=cvEmericSpiroux2016.pdf");
+		echo file_get_contents(__BASE_URL__."assets/cvEmericSpiroux2016.pdf");
 	}
 }
