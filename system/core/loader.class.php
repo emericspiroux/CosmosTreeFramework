@@ -20,7 +20,8 @@ class loader
 		foreach (glob("controller/*.php") as $filename)
 		{
 			include_once $filename;
-			$filename = explode("/", $filename)[1];
+			$filename = explode("/", $filename);
+			$filename = $filename[1];
     		$filename = explode(".", $filename);
     		$controllers[] = $filename[0];
 		}
@@ -31,7 +32,7 @@ class loader
 	public function library()
 	{
 		$library = array();
-		foreach (glob("library/*.php") as $filename)
+		foreach (glob("library/[*].php") as $filename)
 		{
 			include_once $filename;
 			$filename = explode("/", $filename);
