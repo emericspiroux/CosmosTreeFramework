@@ -1,5 +1,5 @@
 <?php
-	$DB_DSN = "mysql:host=62.210.115.85;port=3306;dbname=portfolio";
-	$DB_USER = "root";
-	$DB_PASSWORD = "";
+	$DB_DSN = "mysql:host=127.0.0.1;port=3306;dbname=portfolio";
+	$DB_USER = "<your name>";
+	$DB_PASSWORD = "<your password>";
 ?>
