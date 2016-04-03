@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">SPIROUX Emeric</a>
+            <a class="navbar-brand" href="#page-top">SPIROUX Emeric - En construction </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,7 +44,7 @@
                     <span class="name">Spiroux Emeric</span>
                     <span class="skills">Ecole 42</span>
                     <hr class="star-light">
-                    <span class="skills">FullStack Web - IOS - AngularJS - MongoDB<br/>Developer</span>
+                    <span class="skills">FullStack Web - Swift - Java - AngularJS<br/>Developer</span>
                 </div>
             </div>
         </div>
@@ -142,7 +142,7 @@
                 <p> I have a reason for it, i learn very quickly with a good practice of technical monitoring. I'm very interested by project who link computers and nature respect so as to keep humankind free of all worry. Please don't hesitate to contact me if you think that i can help.</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="<?= __BASE_URL__?>mother/cv" class="btn btn-lg btn-outline">
+                <a href="<?= __BASE_URL__ ?>assets/cvEmericSpiroux2016.pdf" class="btn btn-lg btn-outline">
                     <i class="fa fa-download"></i> Download C.V.
                 </a>
             </div>

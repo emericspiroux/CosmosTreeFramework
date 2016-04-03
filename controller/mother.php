@@ -12,6 +12,7 @@ class mother extends CF_controller
 
 	public function cv()
 	{
+		echo "coucou";
 		header("Content-type: application/pdf");
 		header("Content-Disposition: inline;filename=cvEmericSpiroux2016.pdf");
 		echo file_get_contents(__BASE_URL__."assets/cvEmericSpiroux2016.pdf");

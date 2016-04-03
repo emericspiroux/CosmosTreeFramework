@@ -32,7 +32,7 @@ class loader
 	public function library()
 	{
 		$library = array();
-		foreach (glob("library/[*].php") as $filename)
+		foreach (glob("library/*.php") as $filename)
 		{
 			include_once $filename;
 			$filename = explode("/", $filename);
