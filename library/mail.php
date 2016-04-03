@@ -10,19 +10,23 @@ class mail extends CF_library
 		$this->mail->SMTPDebug = 1;
 		$this->mail->SMTPAuth = true;
 		$this->mail->SMTPSecure = 'ssl';
-		$this->mail->Host = "smtp.gmail.com";
+		$this->mail->Host = "smtp.spiroux-web.fr";
 		$this->mail->Port = 465;
 		$this->mail->IsHTML(true);
-		$this->mail->Username = "emeric.spiroux@gmail.com";
-		$this->mail->Password = "Emeric25";
-		$this->mail->SetFrom("contact@espiroux.fr");
+		$this->mail->Username = "noreply@spiroux-web.fr";
+		$this->mail->Password = "cvtcW299Pg";
+		$this->mail->SetFrom("noreply@spiroux-web.fr");
 	}
 
-	public function sendConfirm($email, $validCode)
+	public function sendContact($name, $email, $phone, $message)
 	{
-		$this->mail->Subject = "Validation Camagru Espiroux";
-		$this->mail->Body = "Bonjour, <a href='".__BASE_URL__."/user/registerConfirm/".$validCode."'> confirmation inscription</a>";
-		$this->mail->AddAddress($email);
+		$this->mail->Subject = "Contact - Portfolio";
+		$this->mail->Body = "	Bonjour Emeric,<br/>
+								Vous avez été contacté par $name.<br/>
+								Email : $email<br/>
+								Phone : $phone<br/>
+								Message : $message<br/>";
+		$this->mail->AddAddress("contact@spiroux-web.fr");
 
 		ob_start();
 		if(!$this->mail->Send()) {
@@ -32,41 +36,5 @@ class mail extends CF_library
 		 	ob_end_clean();
 		 	return (true);
 		 }
-	}
-
-	public function newPassword($email, $newpass)
-	{
-		$this->mail->Subject = "Camagru, nouveau mot de passe";
-		$this->mail->Body = "Bonjour, <br/>
-							<b>Nouveau mot de passe:</b> <br/>
-							- $newpass";
-		$this->mail->AddAddress($email);
-
-		ob_start();
-		if(!$this->mail->Send()) {
-			ob_end_clean();
-		    return (false);
-		} else {
-		 	ob_end_clean();
-		 	return (true);
-		}
-	}
-
-	public function sendComment($email, $pseudo, $comment)
-	{
-		$this->mail->Subject = "Camagru, comment of $pseudo";
-		$this->mail->Body = "Bonjour, <br/>
-							<b>$pseudo vous à laissé un commentaire :</b> <br/>
-							- $comment";
-		$this->mail->AddAddress($email);
-
-		ob_start();
-		if(!$this->mail->Send()) {
-			ob_end_clean();
-		    return (false);
-		} else {
-		 	ob_end_clean();
-		 	return (true);
-		}
 	}
 }
