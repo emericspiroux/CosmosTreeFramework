@@ -280,7 +280,7 @@
                     <div class="modal-body">
                         <h2>One Word</h2>
                         <hr class="star-primary">
-                        <a href="oneword.spiroux-web.fr"><img src="<?= __BASE_URL__ ?>assets/img/portfolio/oneword.png" class="img-responsive img-centered" alt=""></a>
+                        <a href="http://oneword.spiroux-web.fr"><img src="<?= __BASE_URL__ ?>assets/img/portfolio/oneword.png" class="img-responsive img-centered" alt=""></a>
                         <p>One word est un jeu par navigateur dont le but est de construire une phrase sur son profil. La limite étant que chaque mot est unique et seul son possesseur peut l'utiliser. Un système de vente aux enchères de chaque mot est mis en place afin que les mots puissent être échangés.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
