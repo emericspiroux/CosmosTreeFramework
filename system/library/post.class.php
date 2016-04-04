@@ -23,13 +23,13 @@ class post
 	{
 		$rtn = false;
 		$this->name = $explainName;
-		echo "checklist :".$checklist;
 		if (array_key_exists($nameForm, $_POST))
 		{
 			$rtn = $_POST[$nameForm];
 			$checklist = explode("|", trim($checklist));
 			print_r($checklist);
 			foreach ($checklist as $value) {
+
 				if ($exp = $this->getCheckNum($value))
 				{
 					if (!$this->{$exp['function']}($rtn, $exp['value']))
