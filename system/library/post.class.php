@@ -28,7 +28,7 @@ class post
 		{
 			$rtn = $_POST[$nameForm];
 			$checklist = explode("|", trim($checklist));
-			echo "checklist :".$checklist;
+			print_r($checklist);
 			foreach ($checklist as $value) {
 				if ($exp = $this->getCheckNum($value))
 				{
