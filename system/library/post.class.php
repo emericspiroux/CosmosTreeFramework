@@ -36,6 +36,20 @@ class post
 				else if (!$this->{$value}($rtn))
 					$this->nbError++;
 			}
+		} else {
+			$rtn = "";
+			$checklist = explode("|", trim($checklist));
+			echo "checklist :";
+			print_r($checklist);
+			foreach ($checklist as $value) {
+				if ($exp = $this->getCheckNum($value))
+				{
+					if (!$this->{$exp['function']}($rtn, $exp['value']))
+						$this->nbError++;
+				}
+				else if (!$this->{$value}($rtn))
+					$this->nbError++;
+			}
 		}
 		return ($this->xss_clean(trim($rtn)));
 	}
