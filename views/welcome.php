@@ -68,7 +68,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/cabin.png" class="img-responsive" alt="">
+                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/festimove.png" class="img-responsive" alt="">
                 </a>
            </div>
             <div class="col-sm-4 portfolio-item">
@@ -78,7 +78,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/cake.png" class="img-responsive" alt="">
+                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/oneword.png" class="img-responsive" alt="">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -88,7 +88,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/circus.png" class="img-responsive" alt="">
+                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/colocbox.png" class="img-responsive" alt="">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -98,7 +98,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/game.png" class="img-responsive" alt="">
+                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/wolf3d.png" class="img-responsive" alt="">
                 </a>
             </div>
         </div>
@@ -243,7 +243,7 @@
                     <div class="modal-body">
                         <h2>Festimove</h2>
                         <hr class="star-primary">
-                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/festimove.png" class="img-responsive img-centered" alt="">
                         <p>Festimove est un site de réservation de transport en commun à destination de festival de musique Hardteck en Europe. Mon travail au sein de cette entreprise fût de m'occuper de la maintenance, d'organiser la déclinaison avec les sous gérants (Festivals HardRock, Electronique, Gay) ansi que l'administration serveur lors du passage en production.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
@@ -280,7 +280,7 @@
                     <div class="modal-body">
                         <h2>One Word</h2>
                         <hr class="star-primary">
-                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/oneword.png" class="img-responsive img-centered" alt="">
                         <p>One word est un jeu par navigateur dont le but est de construire une phrase sur son profil. La limite étant que chaque mot est unique et seul son possesseur peut l'utiliser. Un système de vente aux enchères de chaque mot est mis en place afin que les mots puissent être utilisés.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
@@ -354,7 +354,7 @@
                     <div class="modal-body">
                         <h2>Wolfenstein</h2>
                         <hr class="star-primary">
-                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/wolf3d.png" class="img-responsive img-centered" alt="">
                         <p>Utilisation de la LibX pour coder un jeu "doom like" en raycasting avec colision, texture et sprites destructibles.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
