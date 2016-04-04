@@ -71,6 +71,7 @@ class post
 
 	private function required($str)
 	{
+		echo "required";
 		$str = trim($str);
 		if (!isset($str) || empty($str) || $str == "" || strlen($str) == 0)
 		{
