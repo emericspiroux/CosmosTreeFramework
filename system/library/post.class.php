@@ -72,7 +72,7 @@ class post
 	private function required($str)
 	{
 		$str = trim($str);
-		if (!isset($str) || empty($str) || $str == "")
+		if (!isset($str) || empty($str) || $str == "" || strlen($str) == 0)
 		{
 			$GLOBALS['postError'][] = "Le champs ".$this->name." est requis.";
 			return (false);
