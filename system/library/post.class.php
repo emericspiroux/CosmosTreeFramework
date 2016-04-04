@@ -28,6 +28,7 @@ class post
 			$rtn = $_POST[$nameForm];
 			$checklist = explode("|", trim($checklist));
 			foreach ($checklist as $value) {
+				echo "Value : ".$value;
 				if ($exp = $this->getCheckNum($value))
 				{
 					if (!$this->{$exp['function']}($rtn, $exp['value']))
@@ -71,7 +72,6 @@ class post
 
 	private function required($str)
 	{
-		echo "required";
 		$str = trim($str);
 		if (!isset($str) || empty($str) || $str == "" || strlen($str) == 0)
 		{
