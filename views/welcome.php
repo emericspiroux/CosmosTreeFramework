@@ -317,7 +317,7 @@
                     <div class="modal-body">
                         <h2>ColocBox</h2>
                         <hr class="star-primary">
-                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/colocbox.png" class="img-responsive img-centered" alt="">
                         <p>ColocBox est une application de gestion de tâches automatisées sur mobile. Actuellement en version Alpha et prochainement disponible dans sa version la plus simple, c'est-à-dire ajouter et afficher les tâches déjà faites, sur l'android market et l'App Store. Elle permet à une colocation de savoir quelles tâches effectuer. Plusieurs améliorations sont en cours notamment la désignation hebdomadaire de tâches pour une personne en fonction de la difficulté de celle faites auparavant. Mise en ligne fin Avril 2015 en version Bêta.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
