@@ -2,3 +2,4 @@
 config/route.php 
 config/database.php
 librairy/mail.php
+.gitignore
