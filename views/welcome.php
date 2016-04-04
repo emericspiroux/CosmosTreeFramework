@@ -280,8 +280,8 @@
                     <div class="modal-body">
                         <h2>One Word</h2>
                         <hr class="star-primary">
-                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/oneword.png" class="img-responsive img-centered" alt="">
-                        <p>One word est un jeu par navigateur dont le but est de construire une phrase sur son profil. La limite étant que chaque mot est unique et seul son possesseur peut l'utiliser. Un système de vente aux enchères de chaque mot est mis en place afin que les mots puissent être utilisés.</p>
+                        <a href="oneword.spiroux-web.fr"><img src="<?= __BASE_URL__ ?>assets/img/portfolio/oneword.png" class="img-responsive img-centered" alt=""></a>
+                        <p>One word est un jeu par navigateur dont le but est de construire une phrase sur son profil. La limite étant que chaque mot est unique et seul son possesseur peut l'utiliser. Un système de vente aux enchères de chaque mot est mis en place afin que les mots puissent être échangés.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
                                 <strong><a >Personnel</a>
@@ -354,7 +354,7 @@
                     <div class="modal-body">
                         <h2>Wolfenstein</h2>
                         <hr class="star-primary">
-                        <img src="<?= __BASE_URL__ ?>assets/img/portfolio/wolf3d.png" class="img-responsive img-centered" alt="">
+                        <a href="https://github.com/emericspiroux/wolf3d"><img src="<?= __BASE_URL__ ?>assets/img/portfolio/wolf3d.png" class="img-responsive img-centered" alt=""></a>
                         <p>Utilisation de la LibX pour coder un jeu "doom like" en raycasting avec colision, texture et sprites destructibles.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
