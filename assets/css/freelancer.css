@@ -462,3 +462,9 @@ footer .footer-below {
     height: 12em!important;
     width: 100%;
 }
+
+.center-fontaw{
+    top: -0.2em;
+    position: relative;
+    left: -0.1em;
+}
