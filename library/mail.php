@@ -8,15 +8,15 @@ class mail extends CF_library
 		parent::__construct();
 		date_default_timezone_set('Etc/UTC');
 		$this->mail->IsSMTP();
-		$this->mail->SMTPDebug = 4;
+		$this->mail->SMTPDebug = 0;
 		$this->mail->SMTPAuth = true;
-		$this->mail->SMTPSecure = 'tls';
+		$this->mail->SMTPSecure = 'ssl';
 		$this->mail->Timeout = 3600;
-		$this->mail->Host = 'smtp.gmail.com';
-		$this->mail->Port = "587";
+		$this->mail->Host = 'mail.gandi.net';
+		$this->mail->Port = "465";
 		$this->mail->IsHTML(true);
-		$this->mail->Username = "emeric.spiroux@gmail.com";
-		$this->mail->Password = "Larry&me25";
+		$this->mail->Username = "noreply@spiroux-web.fr";
+		$this->mail->Password = "cvtcW299Pg";
 		$this->mail->SetFrom("noreply@spiroux-web.fr");
 	}
 

@@ -19,13 +19,15 @@ class mother extends CF_controller
 
 	public function contact(){
 		header("Access-Control-Allow-Origin: *");
-		$name = $this->post->getValidClean('name', "nom", "require");
-		$email = $this->post->getValidClean('email', "email", "require");
-		$phone = $this->post->getValidClean('phone', "telephone", "require");
-		$message = $this->post->getValidClean('message', "message", "require");
+		$name = $this->post->getValidClean('name', "nom", "required");
+		$email = $this->post->getValidClean('email', "email", "required");
+		$phone = $this->post->getValidClean('phone', "telephone", "");
+		$message = $this->post->getValidClean('message', "message", "required");
 
 		if ($this->post->check()){
 			$this->mail->sendContact($name, $email, $phone, $message);
+		} else {
+			echo "error";
 		}
 	}
 }
