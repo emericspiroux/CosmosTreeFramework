@@ -4,7 +4,7 @@ include_once "system/core/loader.class.php";
 include_once "system/core/CF_controller.class.php";
 include_once "system/core/CF_library.class.php";
 include_once "system/core/CF_model.class.php";
-include_once "system/library/mail/class.phpmailer.php";
+include_once "system/library/mail/PHPMailerAutoload.php";
 include "config/route.php";
 
 /*

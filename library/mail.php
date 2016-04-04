@@ -6,15 +6,17 @@ class mail extends CF_library
 	public function __construct()
 	{
 		parent::__construct();
+		date_default_timezone_set('Etc/UTC');
 		$this->mail->IsSMTP();
-		$this->mail->SMTPDebug = 1;
+		$this->mail->SMTPDebug = 4;
 		$this->mail->SMTPAuth = true;
-		$this->mail->SMTPSecure = 'ssl';
-		$this->mail->Host = "smtp.spiroux-web.fr";
-		$this->mail->Port = 465;
+		$this->mail->SMTPSecure = 'tls';
+		$this->mail->Timeout = 3600;
+		$this->mail->Host = 'smtp.gmail.com';
+		$this->mail->Port = "587";
 		$this->mail->IsHTML(true);
-		$this->mail->Username = "noreply@spiroux-web.fr";
-		$this->mail->Password = "cvtcW299Pg";
+		$this->mail->Username = "emeric.spiroux@gmail.com";
+		$this->mail->Password = "Larry&me25";
 		$this->mail->SetFrom("noreply@spiroux-web.fr");
 	}
 
@@ -28,12 +30,10 @@ class mail extends CF_library
 								Message : $message<br/>";
 		$this->mail->AddAddress("contact@spiroux-web.fr");
 
-		ob_start();
 		if(!$this->mail->Send()) {
-			ob_end_clean();
-		    return (false);
+			echo $this->mail->ErrorInfoy;
+		    	return (false);
 		 } else {
-		 	ob_end_clean();
 		 	return (true);
 		 }
 	}
