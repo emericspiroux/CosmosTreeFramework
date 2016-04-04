@@ -41,7 +41,6 @@ class post
 		} else {
 			$rtn = "";
 			$checklist = explode("|", trim($checklist));
-			echo "name :".$nameForm;
 			if (count($checklist) > 0){
 				foreach ($checklist as $value) {
 					if ($exp = $this->getCheckNum($value))
