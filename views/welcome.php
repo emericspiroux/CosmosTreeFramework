@@ -247,15 +247,15 @@
                         <p>Festimove est un site de réservation de transport en commun à destination de festival de musique Hardteck en Europe. Mon travail au sein de cette entreprise fût de m'occuper de la maintenance, d'organiser la déclinaison avec les sous gérants (Festivals HardRock, Electronique, Gay) ansi que l'administration serveur lors du passage en production.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
-                                <strong><a href="http://startbootstrap.com">Festimove</a>
+                                <strong><a href="http://festimove.fr">Festimove</a>
                                 </strong>
                             </li>
                             <li>Date:
-                                <strong><a href="http://startbootstrap.com">Septembre 2014 - Fevrier 2015</a>
+                                <strong><a>Septembre 2014 - Fevrier 2015</a>
                                 </strong>
                             </li>
                             <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <strong><a>Web Development</a>
                                 </strong>
                             </li>
                         </ul>
@@ -284,15 +284,15 @@
                         <p>One word est un jeu par navigateur dont le but est de construire une phrase sur son profil. La limite étant que chaque mot est unique et seul son possesseur peut l'utiliser. Un système de vente aux enchères de chaque mot est mis en place afin que les mots puissent être utilisés.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
-                                <strong><a href="http://startbootstrap.com">Personnel</a>
+                                <strong><a >Personnel</a>
                                 </strong>
                             </li>
                             <li>Date:
-                                <strong><a href="http://startbootstrap.com">Janvier 2015</a>
+                                <strong><a >Janvier 2015</a>
                                 </strong>
                             </li>
                             <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <strong><a >Web Development</a>
                                 </strong>
                             </li>
                         </ul>
@@ -321,15 +321,15 @@
                         <p>ColocBox est une application de gestion de tâches automatisées sur mobile. Actuellement en version Alpha et prochainement disponible dans sa version la plus simple, c'est-à-dire ajouter et afficher les tâches déjà faites, sur l'android market et l'App Store. Elle permet à une colocation de savoir quelles tâches effectuer. Plusieurs améliorations sont en cours notamment la désignation hebdomadaire de tâches pour une personne en fonction de la difficulté de celle faites auparavant. Mise en ligne fin Avril 2015 en version Bêta.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
-                                <strong><a href="http://startbootstrap.com">Personnel</a>
+                                <strong><a >Personnel</a>
                                 </strong>
                             </li>
                             <li>Date:
-                                <strong><a href="http://startbootstrap.com">Novembre 2015 - Aujourd'hui</a>
+                                <strong><a >Novembre 2015 - Aujourd'hui</a>
                                 </strong>
                             </li>
                             <li>Service:
-                                <strong><a href="http://startbootstrap.com">Full Swift, Java - IOS and Android Development</a>
+                                <strong><a >Full Swift, Java - IOS and Android Development</a>
                                 </strong>
                             </li>
                         </ul>
@@ -358,15 +358,15 @@
                         <p>Utilisation de la LibX pour coder un jeu "doom like" en raycasting avec colision, texture et sprites destructibles.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
-                                <strong><a href="http://startbootstrap.com">Ecole 42</a>
+                                <strong><a>Ecole 42</a>
                                 </strong>
                             </li>
                             <li>Date:
-                                <strong><a href="http://startbootstrap.com">Mai 2014</a>
+                                <strong><a>Mai 2014</a>
                                 </strong>
                             </li>
                             <li>Service:
-                                <strong><a href="http://startbootstrap.com">C language</a>
+                                <strong><a>C language</a>
                                 </strong>
                             </li>
                         </ul>
@@ -395,15 +395,15 @@
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                         <ul class="list-inline item-details">
                             <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <strong><a>Start Bootstrap</a>
                                 </strong>
                             </li>
                             <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                <strong><a>April 2014</a>
                                 </strong>
                             </li>
                             <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <strong><a>Web Development</a>
                                 </strong>
                             </li>
                         </ul>
