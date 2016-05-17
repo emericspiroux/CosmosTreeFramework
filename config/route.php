@@ -9,9 +9,10 @@
 	*/
 
 
-
+if (!defined('__BASE_CTRL__'))
 	define('__BASE_CTRL__', 'mother');
-	define('__BASE_URL__', 'http://localhost:8080/CosmosTreeFramework/');
+if (!defined('__BASE_URL__'))
+	define('__BASE_URL__', 'http://spiroux-web.fr/');
 	$_BaseUrl = __BASE_URL__;
 	$_BaseCtrl = __BASE_CTRL__;
 
