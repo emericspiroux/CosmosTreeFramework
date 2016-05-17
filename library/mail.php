@@ -28,13 +28,8 @@ class mail extends CF_library
 								Message : $message<br/>";
 		$this->mail->AddAddress("contact@spiroux-web.fr");
 
-		ob_start();
-		if(!$this->mail->Send()) {
-			ob_end_clean();
-		    return (false);
-		 } else {
-		 	ob_end_clean();
-		 	return (true);
-		 }
+		if(!$this->mail->Send())
+			return (false);
+		return (true);
 	}
 }

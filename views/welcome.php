@@ -44,7 +44,7 @@
                     <span class="name">Spiroux Emeric</span>
                     <span class="skills">Ecole 42</span>
                     <hr class="star-light">
-                    <span class="skills">FullStack Web - IOS - AngularJS - MongoDB<br/>Developer</span>
+                    <span class="skills">Swift<br/>Developer</span>
                 </div>
             </div>
         </div>
@@ -56,7 +56,35 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
+                <h2>Swift Projects</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/colocbox.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+            <a href="#portfolioModalSwiftyProtein" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="<?= __BASE_URL__ ?>assets/img/portfolio/swiftyprotein.png" class="img-responsive" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Other</h2>
                 <hr class="star-primary">
             </div>
         </div>
@@ -79,16 +107,6 @@
                         </div>
                     </div>
                     <img src="<?= __BASE_URL__ ?>assets/img/portfolio/oneword.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/colocbox.png" class="img-responsive" alt="">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -318,7 +336,7 @@
                         <h2>ColocBox</h2>
                         <hr class="star-primary">
                         <img src="<?= __BASE_URL__ ?>assets/img/portfolio/colocbox.png" class="img-responsive img-centered" alt="">
-                        <p>ColocBox est une application de gestion de tâches automatisées sur mobile. Actuellement en version Alpha et prochainement disponible dans sa version la plus simple, c'est-à-dire ajouter et afficher les tâches déjà faites, sur l'android market et l'App Store. Elle permet à une colocation de savoir quelles tâches effectuer. Plusieurs améliorations sont en cours notamment la désignation hebdomadaire de tâches pour une personne en fonction de la difficulté de celle faites auparavant. Mise en ligne fin Avril 2015 en version Bêta.</p>
+                        <p>ColocBox est une application de gestion de tâches automatisées sur mobile. Actuellement en version Alpha et prochainement disponible dans sa version la plus simple, c'est-à-dire ajouter et afficher les tâches déjà faites, sur l'android market et l'App Store. Elle permet à une colocation de savoir quelles tâches effectuer. Plusieurs améliorations sont en cours notamment la désignation hebdomadaire de tâches pour une personne en fonction de la difficulté de celle faites auparavant. Mise en ligne fin Septembre 2016 en version Bêta.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
                                 <strong><a >Personnel</a>
@@ -430,6 +448,43 @@
                         <hr class="star-primary">
                         <img src="<?= __BASE_URL__ ?>assets/img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModalSwiftyProtein" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">hi
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
+                        <a href="https://github.com/emericspiroux/SwiftyProtein"><img src="<?= __BASE_URL__ ?>assets/img/portfolio/swiftyprotein.png" class="img-responsive img-centered" alt=""></a>
+                        <p>Swifty Protein est une application permettant d'afficher la constitution graphique d'un Ligand à partir d'un modèle "Stick-and-ball" ou du Van Der Waals Radius Model. Vous pouvez enregistrer dans votre photothèque ou le partager par email. Des informations sur la constitution du Ligand sont disponibles en touchant l'icône information.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
                                 <strong><a href="http://startbootstrap.com">Start Bootstrap</a>

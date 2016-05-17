@@ -11,7 +11,7 @@
 
 
 	define('__BASE_CTRL__', 'mother');
-	define('__BASE_URL__', 'http://spiroux-web.fr/CosmosTreeFramework/');
+	define('__BASE_URL__', 'http://localhost:8080/CosmosTreeFramework/');
 	$_BaseUrl = __BASE_URL__;
 	$_BaseCtrl = __BASE_CTRL__;
 
