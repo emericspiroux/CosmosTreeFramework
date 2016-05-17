@@ -532,7 +532,7 @@
                         <h2>Swifty Companion</h2>
                         <hr class="star-primary">
                         <a><img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive img-centered" alt=""></a>
-                        <p>Swifty companion est une application basé sur l'API de l'Ecole 42. Elle permet l'affichage du profil de l'utilisateur connecté via OAuth et lui permet de rechercher les données d'un élève (Informations, projects et compétences).La derniere mise à jour permet de voir ses corrections à venir. L'api ne permet malheureusement pas de savoir si c'est la correction de votre projet ou de celui d'un de vos collègue. (MàJ à venir)</p>
+                        <p>Swifty companion est une application basée sur l'API de l'Ecole 42. Elle permet l'affichage du profil de l'utilisateur connecté via OAuth et lui permet de rechercher les données d'un élève (Informations, projets et compétences).La derniere mise à jour permet de voir ses corrections à venir. L'api ne permet malheureusement pas de savoir si c'est la correction de votre projet ou de celui d'un de vos collègues. (MàJ à venir)</p>
                         <ul class="list-inline item-details">
                             <li>Client:
                                 <strong><a href="http://startbootstrap.com">Ecole 42</a>
