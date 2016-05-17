@@ -81,10 +81,20 @@
                 <img src="<?= __BASE_URL__ ?>assets/img/portfolio/swiftyprotein.png" class="img-responsive" alt="">
             </a>
         </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href="#portfolioModalcorrect42" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive" alt="">
+            </a>
+        </div>
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Other</h2>
+                <h2>Others</h2>
                 <hr class="star-primary">
             </div>
         </div>
@@ -473,7 +483,7 @@
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
-                <div class="rl">hi
+                <div class="rl">
                 </div>
             </div>
         </div>
@@ -481,21 +491,59 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Swifty Protein</h2>
                         <hr class="star-primary">
                         <a href="https://github.com/emericspiroux/SwiftyProtein"><img src="<?= __BASE_URL__ ?>assets/img/portfolio/swiftyprotein.png" class="img-responsive img-centered" alt=""></a>
-                        <p>Swifty Protein est une application permettant d'afficher la constitution graphique d'un Ligand à partir d'un modèle "Stick-and-ball" ou du Van Der Waals Radius Model. Vous pouvez enregistrer dans votre photothèque ou le partager par email. Des informations sur la constitution du Ligand sont disponibles en touchant l'icône information.</p>
+                        <p>Swifty Protein est une application permettant d'afficher la constitution graphique d'un Ligand à partir d'un modèle "Stick-and-ball" ou Van Der Waals Radius. Vous pouvez enregistrer dans votre photothèque ou le partager par email. Des informations sur la constitution du Ligand sont disponibles en touchant l'icône information.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <strong><a href="http://startbootstrap.com">Ecole 42</a>
                                 </strong>
                             </li>
                             <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
+                                <strong><a href="http://startbootstrap.com">Mars 2016</a>
                                 </strong>
                             </li>
                             <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <strong><a href="http://startbootstrap.com">Swift Development</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModalcorrect42" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Swifty Companion</h2>
+                        <hr class="star-primary">
+                        <a><img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive img-centered" alt=""></a>
+                        <p>Swifty companion est une application basé sur l'API de l'Ecole 42. Elle permet l'affichage du profil de l'utilisateur connecté via OAuth et lui permet de rechercher les données d'un élève (Informations, projects et compétences).La derniere mise à jour permet de voir ses corrections à venir. L'api ne permet malheureusement pas de savoir si c'est la correction de votre projet ou de celui d'un de vos collègue. (MàJ à venir)</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://startbootstrap.com">Ecole 42</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong><a href="http://startbootstrap.com">April 2016</a>
+                                </strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="http://startbootstrap.com">Swift Development</a>
                                 </strong>
                             </li>
                         </ul>
