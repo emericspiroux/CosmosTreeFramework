@@ -44,7 +44,7 @@
                     <span class="name">Spiroux Emeric</span>
                     <span class="skills">Ecole 42</span>
                     <hr class="star-light">
-                    <span class="skills">FullStack Web - Swift - Java - AngularJS<br/>Developer</span>
+                    <span class="skills">Swift<br/>Developer</span>
                 </div>
             </div>
         </div>

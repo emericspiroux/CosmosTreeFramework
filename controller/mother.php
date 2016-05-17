@@ -21,13 +21,13 @@ class mother extends CF_controller
 		header("Access-Control-Allow-Origin: *");
 		$name = $this->post->getValidClean('name', "nom", "required");
 		$email = $this->post->getValidClean('email', "email", "required");
-		$phone = $this->post->getValidClean('phone', "telephone", "");
+		$phone = $this->post->getValidClean('phone', "telephone", "required");
 		$message = $this->post->getValidClean('message', "message", "required");
 
 		if ($this->post->check()){
 			$this->mail->sendContact($name, $email, $phone, $message);
 		} else {
-			echo "error";
+			$this->post->getPostError("", "");
 		}
 	}
 }

@@ -31,7 +31,7 @@ class mail extends CF_library
 		$this->mail->AddAddress("contact@spiroux-web.fr");
 
 		if(!$this->mail->Send()) {
-			echo $this->mail->ErrorInfoy;
+			echo $this->mail->ErrorInfo;
 		    	return (false);
 		 } else {
 		 	return (true);
