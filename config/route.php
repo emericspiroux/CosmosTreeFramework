@@ -13,7 +13,5 @@
 		define('__BASE_CTRL__', 'mother');
 	if (!defined('__BASE_URL__'))
 		define('__BASE_URL__', 'http://spiroux-web.fr/');
-	$_BaseUrl = __BASE_URL__;
-	$_BaseCtrl = __BASE_CTRL__;
 
 ?>
