@@ -39,7 +39,6 @@ class cosmosFramework
 		$this->load->systemHelpers();
 
 		$urlSelf = explode("/", $_SERVER['PHP_SELF']);
-		print_r($urlSelf);
 		if ((count($urlSelf) - 1) > 1)
 		{
 			$this->class = $urlSelf[2];
