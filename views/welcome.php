@@ -494,6 +494,8 @@
                         <h2>Swifty Protein</h2>
                         <hr class="star-primary">
                         <a href="https://github.com/emericspiroux/SwiftyProtein"><img src="<?= __BASE_URL__ ?>assets/img/portfolio/swiftyprotein.png" class="img-responsive img-centered" alt=""></a>
+                        <a href="https://github.com/emericspiroux/SwiftyProtein"><button type="button" class="btn btn-default"><i class="fa fa-github"></i> Gihub source</button></a>
+                        <a href="http://docswiftyprotein.spiroux-web.fr"><button type="button" class="btn btn-default"><i class="fa fa-book"></i> Swift Documentation</button></a><br/><br/>
                         <p>Swifty Protein est une application permettant d'afficher la constitution graphique d'un Ligand à partir d'un modèle "Stick-and-ball" ou Van Der Waals Radius. Vous pouvez enregistrer dans votre photothèque ou le partager par email. Des informations sur la constitution du Ligand sont disponibles en touchant l'icône information.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
