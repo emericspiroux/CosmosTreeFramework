@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="<?= __BASE_URL__ ?>assets/img/profile.png" alt="">
+                <img id="imgProfil" class="img-responsive" src="<?= __BASE_URL__ ?>assets/img/profile.png" alt="">
                 <div class="intro-text">
                     <span class="name">Spiroux Emeric</span>
                     <span class="skills">Ecole 42</span>
