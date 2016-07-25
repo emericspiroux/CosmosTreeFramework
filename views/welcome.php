@@ -531,10 +531,10 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Swifty Companion</h2>
+                        <h2>Open 42</h2>
                         <hr class="star-primary">
                         <a><img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive img-centered" alt=""></a>
-                        <p>Swifty companion est une application basée sur l'API de l'Ecole 42. Elle permet l'affichage du profil de l'utilisateur connecté via OAuth et lui permet de rechercher les données d'un élève (Informations, projets et compétences).La derniere mise à jour permet de voir ses corrections à venir. L'api ne permet malheureusement pas de savoir si c'est la correction de votre projet ou de celui d'un de vos collègues. (MàJ à venir)</p>
+                        <p>Open 42 est une application IOS open source basée sur l'API de l'Ecole 42. Elle permet l'affichage du profil de l'utilisateur connecté via OAuth et lui permet de rechercher les données d'un élève (Informations, projets et compétences), lui téléphoner, lui envoyer un SMS ou même un mail directement depuis l'application. Il est possible de voir ses corrections à venir et les enregistrer dans son calendrier IOS. La nouvelle feature friends permet de toujours être au courant de l'emplacement de vos amis au sein de l'Ecole 42 et de toujours avoir leurs contacts.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
                                 <strong><a href="http://startbootstrap.com">Ecole 42</a>
