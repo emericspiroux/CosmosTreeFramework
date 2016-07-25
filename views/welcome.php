@@ -534,6 +534,8 @@
                         <h2>Open 42</h2>
                         <hr class="star-primary">
                         <a><img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive img-centered" alt=""></a>
+                        <a href="https://github.com/emericspiroux/Open42"><button type="button" class="btn btn-default"><i class="fa fa-github"></i> Gihub source</button></a>
+                        <a href="http://docopen42.spiroux-web.fr"><button type="button" class="btn btn-default"><i class="fa fa-book"></i> Swift Documentation</button></a><br/><br/>
                         <p>Open 42 est une application IOS open source basée sur l'API de l'Ecole 42. Elle permet l'affichage du profil de l'utilisateur connecté via OAuth et lui permet de rechercher les données d'un élève (Informations, projets et compétences), lui téléphoner, lui envoyer un SMS ou même un mail directement depuis l'application. Il est possible de voir ses corrections à venir et les enregistrer dans son calendrier IOS. La nouvelle feature friends permet de toujours être au courant de l'emplacement de vos amis au sein de l'Ecole 42 et de toujours avoir leurs contacts.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
