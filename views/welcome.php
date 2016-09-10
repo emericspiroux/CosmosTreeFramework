@@ -62,6 +62,16 @@
         </div>
         <div class="row">
             <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModalcorrect42" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
                 <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -79,16 +89,6 @@
                     </div>
                 </div>
                 <img src="<?= __BASE_URL__ ?>assets/img/portfolio/swiftyprotein.png" class="img-responsive" alt="">
-            </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModalcorrect42" class="portfolio-link" data-toggle="modal">
-                <div class="caption">
-                    <div class="caption-content">
-                        <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                </div>
-                <img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive" alt="">
             </a>
         </div>
         </div>
@@ -150,7 +150,7 @@
                 <p> I have a reason for it, i learn very quickly with a good practice of technical monitoring. I'm very interested by project who link computers and nature respect so as to keep humankind free of all worry. Please don't hesitate to contact me if you think that i can help.</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="<?= __BASE_URL__?>mother/cv" class="btn btn-lg btn-outline">
+                <a href="http://goo.gl/gNy122" class="btn btn-lg btn-outline">
                     <i class="fa fa-download"></i> Download C.V.
                 </a>
             </div>
