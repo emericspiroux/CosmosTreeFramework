@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="<?= __BASE_URL__ ?>assets/img/profile.png" alt="">
+                <img id="imgProfil" class="img-responsive" src="<?= __BASE_URL__ ?>assets/img/profile.png" alt="">
                 <div class="intro-text">
                     <span class="name">Spiroux Emeric</span>
                     <span class="skills">Ecole 42</span>
@@ -62,6 +62,16 @@
         </div>
         <div class="row">
             <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModalcorrect42" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/open42.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
                 <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -79,16 +89,6 @@
                     </div>
                 </div>
                 <img src="<?= __BASE_URL__ ?>assets/img/portfolio/swiftyprotein.png" class="img-responsive" alt="">
-            </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModalcorrect42" class="portfolio-link" data-toggle="modal">
-                <div class="caption">
-                    <div class="caption-content">
-                        <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                </div>
-                <img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive" alt="">
             </a>
         </div>
         </div>
@@ -150,7 +150,7 @@
                 <p> I have a reason for it, i learn very quickly with a good practice of technical monitoring. I'm very interested by project who link computers and nature respect so as to keep humankind free of all worry. Please don't hesitate to contact me if you think that i can help.</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="<?= __BASE_URL__?>mother/cv" class="btn btn-lg btn-outline">
+                <a href="http://goo.gl/gNy122" class="btn btn-lg btn-outline">
                     <i class="fa fa-download"></i> Download C.V.
                 </a>
             </div>
@@ -226,8 +226,8 @@
                     <h3>Around the Web</h3>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://fr.linkedin.com/in/emericspiroux" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            <a href="https://github.com/emericspiroux" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            <a href="http://goo.gl/FdsnDt" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            <a href="http://goo.gl/C4KLbZ" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -531,10 +531,12 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Swifty Companion</h2>
+                        <h2>Open 42</h2>
                         <hr class="star-primary">
-                        <a><img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive img-centered" alt=""></a>
-                        <p>Swifty companion est une application basé sur l'API de l'Ecole 42. Elle permet l'affichage du profil de l'utilisateur connecté via OAuth et lui permet de rechercher les données d'un élève (Informations, projects et compétences).La derniere mise à jour permet de voir ses corrections à venir. L'api ne permet malheureusement pas de savoir si c'est la correction de votre projet ou de celui d'un de vos collègue. (MàJ à venir)</p>
+                        <a><img src="<?= __BASE_URL__ ?>assets/img/portfolio/open42.png" class="img-responsive img-centered" alt=""></a>
+                        <a href="https://github.com/emericspiroux/Open42"><button type="button" class="btn btn-default"><i class="fa fa-github"></i> Gihub source</button></a>
+                        <a href="http://docopen42.spiroux-web.fr"><button type="button" class="btn btn-default"><i class="fa fa-book"></i> Swift Documentation</button></a><br/><br/>
+                        <p>Open 42 est une application IOS open source basée sur l'API de l'Ecole 42. Elle permet l'affichage du profil de l'utilisateur connecté via OAuth et lui permet de rechercher les données d'un élève (Informations, projets et compétences), lui téléphoner, lui envoyer un SMS ou même un mail directement depuis l'application. Il est possible de voir ses corrections à venir et les enregistrer dans son calendrier IOS. La nouvelle feature friends permet de toujours être au courant de l'emplacement de vos amis au sein de l'Ecole 42 et de toujours avoir leurs contacts.</p>
                         <ul class="list-inline item-details">
                             <li>Client:
                                 <strong><a href="http://startbootstrap.com">Ecole 42</a>

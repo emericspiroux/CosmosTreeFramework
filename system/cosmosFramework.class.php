@@ -39,15 +39,15 @@ class cosmosFramework
 		$this->load->systemHelpers();
 
 		$urlSelf = explode("/", $_SERVER['PHP_SELF']);
-		if ((count($urlSelf) - 1) > 2)
+		if ((count($urlSelf) - 1) > 1)
 		{
-			$this->class = $urlSelf[3];
-			if (isset($urlSelf[4]))
-				$this->methode = $urlSelf[4];
-			if (count($urlSelf) > 5)
+			$this->class = $urlSelf[2];
+			if (isset($urlSelf[3]))
+				$this->methode = $urlSelf[3];
+			if (count($urlSelf) > 4)
 			{
 				foreach ($urlSelf as $key => $value) {
-					if ($key > 4 && $value != "")
+					if ($key > 3 && $value != "")
 						$this->attributes[] = $value;
 				}
 			}

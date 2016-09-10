@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://192.168.1.29:8080/CosmosTreeFramework/mother/contact",
+                url: "http://spiroux-web.fr/mother/contact",
                 type: "POST",
                 data: {
                     name: name,
