@@ -68,7 +68,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/correct42.png" class="img-responsive" alt="">
+                    <img src="<?= __BASE_URL__ ?>assets/img/portfolio/Open42.png" class="img-responsive" alt="">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
