@@ -226,8 +226,8 @@
                     <h3>Around the Web</h3>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://fr.linkedin.com/in/emericspiroux" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            <a href="https://github.com/emericspiroux" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            <a href="http://goo.gl/FdsnDt" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            <a href="http://goo.gl/C4KLbZ" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                         </li>
                     </ul>
                 </div>
